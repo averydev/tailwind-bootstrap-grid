@@ -74,7 +74,7 @@
     "@k.sh/eslint-config": "^1.11.0",
     "@mdx-js/loader": "^0.20.3",
     "@mdx-js/tag": "^0.20.3",
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.5",
     "cross-env": "^5.2.0",
     "css-loader": "^3.0.0",
