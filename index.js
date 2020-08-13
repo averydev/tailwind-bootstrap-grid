@@ -62,11 +62,6 @@ module.exports = ({
           {
             '.container-fluid': {
               width: '100%',
-              ...
-              ({
-                paddingRight: spacing,
-                paddingLeft: spacing,
-              }),
               marginRight: 'auto',
               marginLeft: 'auto',
             },
@@ -135,11 +130,7 @@ module.exports = ({
         {
           [allColumnClasses.join(',\n')]: {
             position: 'relative',
-            width: '100%',
-            ...spacingCSS({
-              paddingRight: spacing,
-              paddingLeft: spacing,
-            }),
+            width: '100%'
           },
         },
       ],
