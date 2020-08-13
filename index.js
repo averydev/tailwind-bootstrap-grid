@@ -45,11 +45,7 @@ module.exports = ({
           '.container': {
             width: '100%',
             marginRight: 'auto',
-            marginLeft: 'auto',
-            ...spacingCSS({
-              paddingRight: spacing,
-              paddingLeft: spacing,
-            }),
+            marginLeft: 'auto'
           },
         },
         ...Object.entries(screens).map(([name, value]) => ({
@@ -66,7 +62,8 @@ module.exports = ({
           {
             '.container-fluid': {
               width: '100%',
-              ...spacingCSS({
+              ...
+              ({
                 paddingRight: spacing,
                 paddingLeft: spacing,
               }),
